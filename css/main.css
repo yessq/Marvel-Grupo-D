@@ -16,16 +16,43 @@ body{
 
 
 }
-.contenedor{
+nav{
+  display: flex;
+  background-color: whitesmoke;
+  padding: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  justify-content: center;
+  align-items: center;
+}
+nav a{
+  color:black;
+  text-decoration: none;
+
+}
+nav a:hover{
+  color:red;
+}
+.icon-container{
+  width: 500px;
+  display:block;
+  margin:auto;
+}
+/* ---------------------------------------------------- */
+.main_section{
+  padding: 15%;
+  text-align: center;
+
+}
+
+/*.contenedor{
   width: 90%;
   margin:auto;
 }
 
-.logotipo{
-  width: 500px;
-  display:block;
-  margin:auto;
+
 
 }
-
-
+*/
